@@ -355,6 +355,7 @@ body {
   cursor:pointer;transition:all .16s;
 }
 .exc-btn:hover:not(:disabled){border-color:var(--o500);background:var(--o100)}
+.exc-btn.selected{border-color:var(--o500);background:var(--o500);color:#fff}
 .exc-btn.correct{border-color:var(--green);background:var(--green-bg);color:var(--green)}
 .exc-btn.wrong  {border-color:var(--red);background:var(--red-bg);color:var(--red)}
 .exc-btn:disabled{cursor:default}
